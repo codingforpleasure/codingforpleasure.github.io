@@ -1,16 +1,10 @@
 ---
 title: "NBA Post 4 (4/8)"
-author: Shay Cohen
-hidden: false
-last_modified_at:
 categories:
-  - Media
+  - Blog
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
 
 The next research we are going to examine is concerned with one of the terms which is taken from the basketball sport. The term that we are speaking about is “double-double”.

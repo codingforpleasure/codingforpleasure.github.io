@@ -1,16 +1,10 @@
 ---
 title: "NBA Post 2 (2/8)"
-author: Shay Cohen
-hidden: false
-last_modified_at:
 categories:
   - Media
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
 
 # NBA Post 2 (2/8)
