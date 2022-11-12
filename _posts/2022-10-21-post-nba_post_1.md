@@ -42,7 +42,7 @@ We can dive deeper into the numbers by understanding the trend of foreign player
 Here's is the code I wrote:
 <script src="https://gist.github.com/AnalyticsForPleasure/de555af910f9aa51088b90049b99f4d5.js"></script>
 
-![image-left]({{ '/example/images/Ratio_between_foreign_players_to_local_players_new.png
+![image-left]({{ '/assets/images/Ratio_between_foreign_players_to_local_players_new.png
 ' | absolute_url }}){: .align-left} 
 
 
