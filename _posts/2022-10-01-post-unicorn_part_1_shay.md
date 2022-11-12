@@ -1,16 +1,12 @@
 ---
 title: "Unicorn Post"
-hidden: false
-last_modified_at:
 categories:
-  - Media
+  - Blog
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
+
 # New Post - Unicorn (1 / 6)
 Today we'll start with a series of 6 posts. Each post will delve into an interesting research about **financial side of investing**. 
 I am quite sure you all have already heard about it! 

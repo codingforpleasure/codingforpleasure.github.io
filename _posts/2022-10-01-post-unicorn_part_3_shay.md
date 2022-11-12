@@ -1,16 +1,10 @@
 ---
 title: "Unicorn Post - Part 3"
-author: Shay Cohen
-hidden: false
-last_modified_at:
 categories:
-  - Media
+  - Blog
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
 # New Post - Unicorn (3 / 6)
 
