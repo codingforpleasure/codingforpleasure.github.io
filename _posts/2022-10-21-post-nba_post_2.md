@@ -48,11 +48,11 @@ After retrieving the final data, I built a function which will illustrate the fi
 
 
 
-![image-left]({{ '/example/images/The_top_10_rookies_with_the_overall_highest_scoring_points_assists_and_rebounds.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/The_top_10_rookies_with_the_overall_highest_scoring_points_assists_and_rebounds.png' | absolute_url }}){: .align-left}
 
 
 
-![image-left]({{ '/example/images/table_top_10_rookies_for_scoring_points_assist_and_rebounds.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/table_top_10_rookies_for_scoring_points_assist_and_rebounds.png' | absolute_url }}){: .align-left}
 
 
 
@@ -71,11 +71,11 @@ Here below the code I wrote:
 <script src="https://gist.github.com/AnalyticsForPleasure/655f5599e4b2850ab0e737cfa9bc13c2.js"></script>
 
 
- ![image-left]({{ '/example/images/incremental_pts_percentage_for_undrafted_players_new.png' | absolute_url }}){: .align-left} 
+ ![image-left]({{ '/assets/images/incremental_pts_percentage_for_undrafted_players_new.png' | absolute_url }}){: .align-left} 
 
 In the table above we can notice a massive improval in points as the players entered their second year in the league. We can see a sharp increase in points for players such as **Wesley Matthews**, who finished his rookie season with an average of 9.4 points a game. A year later, Matthews upgraded his scoring abilities as he reached almost 16 points a game - An increase of 69% in points.
 Another extraordinary player we can distinguish  is **Andres Nocioni**. His points number jumps 55% to 13 points.
-![image-left]({{ '/example/images/most_improvement_from_rookie_season.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/most_improvement_from_rookie_season.png' | absolute_url }}){: .align-left}
 
 
 
@@ -94,7 +94,7 @@ Players can be undrafted also if they came from G- league or came from the middl
 <script src="https://gist.github.com/AnalyticsForPleasure/3fceacbaadb720c9c3f639bfe0ca13fc.js"></script>
 
 
-![image-left]({{ '/example/images/Table_Number_of_players_where_undrafted_over_each_year.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/Table_Number_of_players_where_undrafted_over_each_year.png' | absolute_url }}){: .align-left}
 
 
 
@@ -102,7 +102,7 @@ Now, let's illustrate the data of the undrafted players over the years (1996 -20
 
 
 
-![image-left]({{ '/example/images/Number_of_players_where_undrafted_over_each_year.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Number_of_players_where_undrafted_over_each_year.png' | absolute_url }}){: .align-left} 
 
 
 After we find out how many undrafted players there were over 25 past year. lets find out the number of drafted players over the past 25 years.
