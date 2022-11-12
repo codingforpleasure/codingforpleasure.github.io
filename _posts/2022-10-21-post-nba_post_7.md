@@ -1,16 +1,10 @@
 ---
 title: "NBA Post 7 (7/8)"
-author: Shay Cohen
-hidden: false
-last_modified_at:
 categories:
-  - Media
+  - Blog
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
 
 

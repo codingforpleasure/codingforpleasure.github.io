@@ -1,16 +1,10 @@
 ---
 title: "NBA Post 6 (6/8)"
-author: Shay Cohen
-hidden: false
-last_modified_at:
 categories:
-  - Media
+  - Blog
 tags:
-  - content
-  - embeds
-  - media
-  - twitter
-layout: post
+  - link
+  - Post Formats
 ---
 
 The next interesting point I would like to check is by doing a short research about the height of the entire players over 25 years. As we all know, the height of a basketball player is higher than an average person. In this dataset we are exposed for a large range of players height ( there are 2,333 players in our dataset ). 
