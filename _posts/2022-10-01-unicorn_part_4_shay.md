@@ -34,13 +34,13 @@ The other one is Tiger Global Management, an American investment firm. It  mainl
 Both Andreessen and Tiger Global  have in their portfolio 53 companies which they invest in taken from our data set.
 
 
-![image-left]({{ '/example/images/Top_8_investors_which_invested_the_largest_amount_in_companies.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/Top_8_investors_which_invested_the_largest_amount_in_companies.png' | absolute_url }}){: .align-left}
 
 
 Here below we add I chart which emphasize the result we got from the table above- check it out:
 
 
-![image-left]({{ '/example/images/Top_investors.gif' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Top_investors.gif' | absolute_url }}){: .align-left} 
 
 Now, after we find out who are the investors which invest the most, we would want to dig up and find out each diversified portfolio of these top investors by continents.
 
@@ -58,7 +58,7 @@ Now, We would like to find out -
 <script src="https://gist.github.com/AnalyticsForPleasure/0330134193fcc0871595dc6ef4e7e52c.js"></script>
 
 
-![image-left]({{ '/example/images/Number_of_investment per_industry_subplot.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Number_of_investment per_industry_subplot.png' | absolute_url }}){: .align-left} 
 
 The results shows us that in each city, investors prefers to invest in a different field, for example: In New York most investors preferred to invest in fintech and Internet software & services (33 + 20= 53 investments ), in San Francisco investors also preferred to invested in those two fields but in a higher volume of investments-  fintech 41 companies , and at Internet software & services 54. 
 The type of investment made by investors in  North American & South America (New York + San Francisco  is totally different from the investors who pick up and invest over Asia. In Asia the companies who got funded are the companies with E-commerce & direct-to-consumer , Auto & transportation.
@@ -120,7 +120,7 @@ Finally, after dividing the data twice, we can go and seek for some conclusion t
 
 
 
-![image-left]({{ '/example/images/table_3_ranges_of_years.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/table_3_ranges_of_years.png' | absolute_url }}){: .align-left} 
 
 
 (An important point I would like to point out is about the specific column named “Select Investors”. This column refers to investing firms as individual investors.  I want to explain the meaning of investing firm. An investment company can also be known as “fund company” or “fund sponsor”. They often partner with third-party distributors to sell mutual funds.)

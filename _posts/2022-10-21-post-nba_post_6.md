@@ -18,7 +18,7 @@ Usually the  shortest member of the team would be the player who is playing at t
 
 After a brief check, we can distinguish a range of height, when the highest basketball player height is 231.14 centimeter. And on the other side of the scale, we have the shortest basketball player with a height of 160.02 centimeter.
 
-![image-left]({{ '/example/images/Highest_players_over_the_NBA_past_deceded_table.png
+![image-left]({{ '/assets/images/Highest_players_over_the_NBA_past_deceded_table.png
 ' | absolute_url }})
 
 Therefore, we would like to do a short research about the players height by dividing the whole players into smaller groups. When each group will get an interval of 10 centimeters of height. 
@@ -37,7 +37,7 @@ We built 2 functions :
 
 
 
-![image-left]({{ '/example/images/standard_deviation_for_each_group_table.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/standard_deviation_for_each_group_table.png' | absolute_url }}){: .align-left} 
 
 
 The next and last test for today,  we would like to examine is related to the element, which the media like to talk cosistanty,  I am talking about the questions : 
@@ -53,7 +53,7 @@ We will find out which two teammates ( at the same team )   got to their peak  a
 
 
 
-![image-left]({{ '/example/images/Top_scorer_and_second_scorer.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Top_scorer_and_second_scorer.png' | absolute_url }}){: .align-left} 
 
 
 As we see taken from our results we can see the duos which we talk about below do not appear at this chart.  We can see only 5 times two players on the same team were able to score so many points over the entire seasons of the NBA ( In our dataset 35 years).
@@ -63,7 +63,7 @@ We can point out another thing,  the dous named Shaquille O’Neal & Kobe Brayan
 
 
 
-![image-left]({{ '/example/images/top_dous_who_scored_together_more_then_54_point_at_the_same_year.png' | absolute_url }})
+![image-left]({{ '/assets/images/top_dous_who_scored_together_more_then_54_point_at_the_same_year.png' | absolute_url }})
 
 
 
@@ -76,11 +76,11 @@ Two years later, Kobe Bryant replaced Shaquille  with 30 points in season 2002.
 
 * Numbers of the **first scorer** of the team:
 
-![image-left]({{ '/example/images/table_first_scorer.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/table_first_scorer.png' | absolute_url }}){: .align-left} 
 
 * Numbers of the **second scorer** of the team:
 
-![image-left]({{ '/example/images/table_second_scorer.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/table_second_scorer.png' | absolute_url }}){: .align-left}
 
 
 I want to know the average point of the selected player who played more than 10 years. 

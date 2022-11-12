@@ -49,7 +49,7 @@ As we can see from the output table above, over the past 25 years there has been
 
 
 
-![image-left]({{ '/example/images/Amount_of_foreign_players_VS_local_Players_in_the_NBA_league_chart.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/Amount_of_foreign_players_VS_local_Players_in_the_NBA_league_chart.png' | absolute_url }}){: .align-left}
 
 
 
@@ -90,7 +90,7 @@ The next thing I would want to examine and ask is :
 
 
 
-![image-left]({{ '/example/images/Amount_of_foreign_players_in_a_team_over_the_years.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Amount_of_foreign_players_in_a_team_over_the_years.png' | absolute_url }}){: .align-left} 
 
 
 As we can see from the table above. the most foreign players who played in a team over the NBA - is the Toranto rapters with 43 foreign players in the last 25 years.

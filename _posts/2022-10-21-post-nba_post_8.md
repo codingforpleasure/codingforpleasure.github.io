@@ -23,11 +23,11 @@ The **Usg%** matrix is that calculates **what percentage of team plays a player 
 
 
 
-![image-right]({{ '/example/images/Usg_precentage.png' | absolute_url }}){: .align-right}
+![image-right]({{ '/assets/images/Usg_precentage.png' | absolute_url }}){: .align-right}
 
 
 
-![image-left]({{ '/example/images/Usg_table.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Usg_table.png' | absolute_url }}){: .align-left} 
 
 
 As we can see from the table above, the same James Harden we talked about before, leads the league in this category with his consistency, with **almost 40% over his 2018 season!**
@@ -41,12 +41,12 @@ During the seasons 2018 and a year afterwards, Harden had remarkable seasons wit
 
 
 
-![image-left]({{ '/example/images/average_points_for_aplayer_in_his_4_seasons.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/average_points_for_aplayer_in_his_4_seasons.png' | absolute_url }}){: .align-left} 
 
 
 
 
-![image-left]({{ '/example/images/table_average_points_for_aplayer_in_his_4_seasons.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/table_average_points_for_aplayer_in_his_4_seasons.png' | absolute_url }}){: .align-left}
 
 In the table above we wanted to find out what is the average points for a player during their first 4 seasons in the league and to compare this result to the average points of the same player in his veteran years in the league,  in their 4 last four years.
  

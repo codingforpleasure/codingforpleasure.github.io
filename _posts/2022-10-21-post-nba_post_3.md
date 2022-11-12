@@ -19,7 +19,7 @@ layout: post
 In our last post we find out the number of players over the years, who were undrafted. Today, we will start by finding out the numbers of players who were drafted over the last 25 years.
 <script src="https://gist.github.com/AnalyticsForPleasure/a54c648d4ab1da295f1186d1519d3efb.js"></script>
 
-![image-left]({{ '/example/images/Number_of_drafted_players_each_year.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Number_of_drafted_players_each_year.png' | absolute_url }}){: .align-left} 
 
 
 
@@ -30,7 +30,7 @@ In our last post we find out the number of players over the years, who were undr
 
 
 
-![image-left]({{ '/example/images/How_many_players_get_drafted_in_the_NBA_each_year.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/How_many_players_get_drafted_in_the_NBA_each_year.png' | absolute_url }}){: .align-left} 
 
 
 
@@ -73,7 +73,7 @@ This horizontal bar shows us a list of colleges in which players have graduated 
 
 
 
-![image-left]({{ '/example/images/Number_of_players_who_scored_more_than_27_points_after_graduating_from_the_best_colleges.png'| absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Number_of_players_who_scored_more_than_27_points_after_graduating_from_the_best_colleges.png'| absolute_url }}){: .align-left} 
 
 
 
@@ -94,13 +94,13 @@ This horizontal bar shows us a list of colleges in which players have graduated 
 As we can see from the chart above, the top college which was able to send the best talented players to the NBA was Georgetown College .Their super star **Allen Iverson** who was drafted number one draft pick by the Philadelphia 76’s  was able to score 6 years continuously more than 27 points between the 1999 - 2005 seasons.
 
 <figure style="width: 700px">
-<img src="{{ '/example/images/Allen_Iverson.png' | absolute_url }}" class="align-center" alt="">
+<img src="{{ '/assets/images/Allen_Iverson.png' | absolute_url }}" class="align-center" alt="">
 
 
 Also Arizona state was able to develop another talented  type of player named James Harden who joined the Houston Rockets after 5 year at the league. James was able to duplicate Allen Iverson's continuous scoring ability, almost a decade later, when he scored more than 27 points 6 year straight.
 
 
 <figure style="width: 700px">
-<img src="{{ '/example/images/James_Harden.png' | absolute_url }}" class="align-center" alt="">
+<img src="{{ '/assets/images/James_Harden.png' | absolute_url }}" class="align-center" alt="">
 
  

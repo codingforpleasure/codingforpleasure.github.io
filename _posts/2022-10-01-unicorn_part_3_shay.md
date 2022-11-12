@@ -32,7 +32,7 @@ Let’s find out
 
 
 
-![image-left]({{ '/example/images/Chmparing_between_campanies_who_funded_money_vs_not_funded.png
+![image-left]({{ '/assets/images/Chmparing_between_campanies_who_funded_money_vs_not_funded.png
 ' | absolute_url }}){: .align-left} 
 
 
@@ -77,7 +77,7 @@ For example : We have a chinese E- commerce  company named “Zhaogang”, locat
 After I clear that out, We will start the analysis of separating the continuous data into 7 categorical data ,which I have mentioned up here.
 
 
-![image-left]({{ '/example/images/I_creation_timeline.png
+![image-left]({{ '/assets/images/I_creation_timeline.png
 ' | absolute_url }}){: .align-left} 
 
 
@@ -103,7 +103,7 @@ After is the output of the code written up here:
 
 Now, let emphasis the outcome data result with a nice chart:
 
-![image-left]({{ '/example/images/How_long_it_took_for_each_company_to_cross_the_milestone.png
+![image-left]({{ '/assets/images/How_long_it_took_for_each_company_to_cross_the_milestone.png
 ' | absolute_url }}){: .align-left} 
 
 
@@ -137,12 +137,12 @@ Now, let's illustrate this output by adding a timeline created by one of the vis
 
 At the top which had a valuation of over 1 billion dollar at the fastest way are: 
 
-![image-left]({{ '/example/images/The_shortest_time_entering_the_club.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/The_shortest_time_entering_the_club.png' | absolute_url }}){: .align-left}
 
 Now, let's illustrate this output by adding a timeline created by one of the visual libraries that python offers: 
 
 <figure style="width: 800px">
-<img src="{{ '/example/images/Companies_which_became_unicorn_in_the_shortest_period_of_time_new.png' | absolute_url }}" class="align-center" alt="">
+<img src="{{ '/assets/images/Companies_which_became_unicorn_in_the_shortest_period_of_time_new.png' | absolute_url }}" class="align-center" alt="">
 
 
 

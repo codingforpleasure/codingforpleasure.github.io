@@ -101,7 +101,7 @@ Let’s add our written code:
 
 <script src="https://gist.github.com/AnalyticsForPleasure/f77dda59b8049416835f32c107d5905b.js"></script>
 
-![image-left]({{ '/example/images/Counting_the_number_of_unicorns_in_each_country.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Counting_the_number_of_unicorns_in_each_country.png' | absolute_url }}){: .align-left} 
 
 
 We can see more than half of the companies are located in the US. In second place on top, we can see then chinese companies - with  173 companies. Afterwards, our examination reveals that India and the United Kingdom take the third and fourth place, with 65 companies and companies in  correspondence.
@@ -112,7 +112,7 @@ Let’s add our written code:
 <script src="https://gist.github.com/AnalyticsForPleasure/ebf950e9f1e78d95d89abbe990fa8143.js"></script>
 
 
-![image-left]({{ '/example/images/Counting_th_number_of_unicorns_in_each_city_around_the_world.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Counting_th_number_of_unicorns_in_each_city_around_the_world.png' | absolute_url }}){: .align-left} 
 
 
 
@@ -132,7 +132,7 @@ Now, we will check out the other side - the side of investors who poured their m
 This result above we got by writing this code:
 <script src="https://gist.github.com/AnalyticsForPleasure/9eabb238aa3c6309ca9aefe83dcb9ea8.js"></script>
 
-![image-left]({{ '/example/images/Total_amount_of_money_invested_into_the_top_12_countries_new.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Total_amount_of_money_invested_into_the_top_12_countries_new.png' | absolute_url }}){: .align-left} 
 
 
 

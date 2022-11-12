@@ -36,7 +36,7 @@ In order to find out the answer for our questions, I will add a chuck of my code
 
 Here is the result what we got: 
 
-![image-left]({{ '/example/images/table_valuation_of_the_top_companies.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/table_valuation_of_the_top_companies.png' | absolute_url }}){: .align-left} 
 
 
 As we go through the output code - we can notice companies such as: Bydance or Spacex or SHEIN got a tag price valuation of more than 100 billion dollars.
@@ -53,14 +53,14 @@ Now, after we got the numbers,  we can go further and build our chart. Thus, I a
 
 <script src="https://gist.github.com/AnalyticsForPleasure/edd0df170218a3384fd31235fb07f622.js"></script>
 
-![image-left]({{ '/example/images/10_most_valued_unicorn_companies.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/10_most_valued_unicorn_companies.png' | absolute_url }}){: .align-left} 
 
 The next thing we would like to check is the amount of companies founded each year. As we can see down here ( In the left side table) :  between the years 2011 - 2018 there was a massive increase of Hi - tech companies who started a business,  which will turn out to be, over a couple  of years, a unicorn.
 
 Furthermore, We can see throughout the right side table the outcome result of the funding companies we talked about.This reflection is a consequence of more money and more bubbly behavior of the market, as many companies announced worth more than 1 billion dollars. 
 
 
-![image-left]({{ '/example/images/Funding_table.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Funding_table.png' | absolute_url }}){: .align-left} 
 
 
 On the other hand, we can see a totaly different picture.  We can point out what can drive the downward trend :
@@ -70,7 +70,7 @@ On the other hand, we can see a totaly different picture.  We can point out what
 * The venture market shrinked - At 2022, venture funding has shrunk with each passing quarter, with some crossover investors pulling back significantly after experiencing massive losses in their public funds. 
 Over the last year there were several macro changes. Macro trends like inflation, rising interest rates, and geopolitical crises — such as the war in Ukraine — arose to shock the public markets. 
 
-![image-left]({{ '/example/images/Number_of_unicorn_companies_who_have_been_founded_over_the_years_new.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/Number_of_unicorn_companies_who_have_been_founded_over_the_years_new.png' | absolute_url }}){: .align-left}
 
 
 After we retrieve the numbers, we will go to the illustration data part.
@@ -79,7 +79,7 @@ We can see a massive flow of opening business periods between the years at 2011 
 
 
 
-![image-left]({{ '/example/images/Number_of_companies_who_became_worth_more_than_1_billion_dollars_new.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/Number_of_companies_who_became_worth_more_than_1_billion_dollars_new.png' | absolute_url }}){: .align-left} 
 
 
 The chart up here shows us the bubbly market the last couple of years. We can notice a dramatic change upon the valuation of  companies. 

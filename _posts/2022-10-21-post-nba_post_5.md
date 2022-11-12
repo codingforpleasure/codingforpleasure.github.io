@@ -27,7 +27,7 @@ Now, let dive into the code:
 
 
 
-![image-right]({{ '/example/images/Histogram_the_years_distribution_of_NBA_players_in_the_league.png' | absolute_url }})
+![image-right]({{ '/assets/images/Histogram_the_years_distribution_of_NBA_players_in_the_league.png' | absolute_url }})
 
 
 Let's we now the results from the histogram on a table:
@@ -37,7 +37,7 @@ Let's we now the results from the histogram on a table:
 
 
 
-![image-left]({{ '/example/images/table_for_the_Number_of_years_the_player_played_in_the_NBA_league.png' | absolute_url }}){: .align-left} 
+![image-left]({{ '/assets/images/table_for_the_Number_of_years_the_player_played_in_the_NBA_league.png' | absolute_url }}){: .align-left} 
 
 
 
@@ -92,4 +92,4 @@ Here is the code reference for answering this question:
 As we can notice from the output above - 851 players ,during the last 25 seasons, played in the same jersey their entire careers. In other words,  over their rookie season and in their retirement season they played with the same jersey. 
 
 
-![image-right]({{ '/example/images/team_jersey.png' | absolute_url }})
+![image-right]({{ '/assets/images/team_jersey.png' | absolute_url }})

@@ -47,7 +47,7 @@ Now, after we finish writing the main code, we want to present it nicely.
 <script src="https://gist.github.com/AnalyticsForPleasure/34af523dc075d14175c1b3627e8ce5a0.js"></script>
 
 
-![image-left]({{ '/example/images/seasonlly_most_double_double_aPlayer_had__in_the_s.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/seasonlly_most_double_double_aPlayer_had__in_the_s.png' | absolute_url }}){: .align-left}
 
 
 Now, after presenting this chart we can notice and understand the data results much more accurately.
@@ -67,12 +67,12 @@ Here is the code I wrote:
 
 <script src="https://gist.github.com/AnalyticsForPleasure/a7f475146c7a48a7023fed4c93855300.js"></script>
 
-![image-left]({{ '/example/images/table_passing_abilities.png' | absolute_url }}){: .align-left}
+![image-left]({{ '/assets/images/table_passing_abilities.png' | absolute_url }}){: .align-left}
 
 
 As we can see from the output chart above - we got 5 players: Baron Davis, Brevin Knight, Chris Paul, Deron Williams and Gary Payton.
 
 <figure style="width: 700px">
-<img src="{{ '/example/images/The_top_5_players_with_the_best_passing_abilities.png' | absolute_url }}" class="align-center" alt="">
+<img src="{{ '/assets/images/The_top_5_players_with_the_best_passing_abilities.png' | absolute_url }}" class="align-center" alt="">
 
 
