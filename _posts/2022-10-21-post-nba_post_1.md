@@ -5,7 +5,6 @@ categories:
 tags:
   - link
   - Post Formats
-link: https://github.com
 ---
 
 
