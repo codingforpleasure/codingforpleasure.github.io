@@ -29,7 +29,7 @@ As we can see above, the dataframe contains 22 columns. During our coding sessio
 
 We will start with our first Question:
 
-### **“What is the percentage of foreign players over the years?”**
+### **What is the percentage of foreign players over the years?**
 
 The National Basketball Association, as you perhaps similar with the NBA name,  is a professional basketball league in North America. Over this league we have 30 teams which are located in the north of the US and in Canada. Each team had local players and foreign players from all over the world.
 Therefore, We are trying to get some sense of the ratio of foreign players VS local players over the 25 years (1996 - 2020)  we have over the years.
