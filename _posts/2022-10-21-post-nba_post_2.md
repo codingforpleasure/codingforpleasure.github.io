@@ -7,8 +7,6 @@ tags:
   - Post Formats
 ---
 
-# NBA Post 2 (2/8)
-
 In the next insight we will go over several interesting columns of our data frame which will help us to analyze. My main idea here is to go over and compare between each player and examine their performance in the first year. The examination would be according different categories:
 * Points ( In our data frame named  as “pts”).
 * Assists  ( In our data frame named  as “ast”).

@@ -8,9 +8,6 @@ tags:
 toc: true
 ---
 
-
-# NBA Post 1 (1/8)
-
 Today we will start with our first post of several posts.  We will go over and analyze the data of the NBA,  taken from the kaggle dataset.
 
 This dataset contains a massive amount of information of  22 columns and 11,700 rows.  
