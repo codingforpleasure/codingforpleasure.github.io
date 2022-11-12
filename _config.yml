@@ -16,10 +16,9 @@
 title: AnalyticsForPleasure
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air # default
 search: true
 
 # Build settings
@@ -59,7 +58,7 @@ plugins:
 author:
   name   : "Shay Cohen"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "The size of your success is measured by the strength of your desire; the size of your dream; and how you handle disappointment along the way."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
