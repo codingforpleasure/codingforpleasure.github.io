@@ -1,0 +1,195 @@
+## תגיות מטא
+- id: "meta_title"
+  translation: "אדריטיאן - נושא הוגו ביצועים גבוהים מאת אדריאן מורנו"
+- id: "meta_description"
+  translation: "נושא הוגו זה (אדריטיאן) מבוסס על Bootstrap וכולל תכונות שמתאימות לאתר אישי, תיק עבודות או יישומי עמוד יחיד."
+- id: "meta_keywords"
+  translation: "הוגו, נושא, Bootstrap, אדריטיאן, אדריאן מורנו, אתר אישי, תיק עבודות, יישום עמוד יחיד"
+- id: "meta_author"
+  translation: "אדריאן מורנו פניה"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## כותרת ראשית
+- id: "logo_text1"
+  translation: "גיל"
+
+- id: "logo_text2"
+  translation: "כהן"
+
+- id: "nav_home"
+  translation: "בית"
+
+## כללי
+- id: "skipToMainContent"
+  translation: "דלג לתוכן הראשי"
+
+- id: "toggle_navigation"
+  translation: "החלף ניווט"
+
+## כותרת תחתונה
+- id: "footer_notice"
+  translation: "© אדריטיאן. נושא הוגו חינמי מאת אדריאן מורנו פניה."
+
+- id: "language"
+  translation: "שפה"
+
+- id: "toggle_theme"
+  translation: "החלף עיצוב"
+
+- id: "theme_light"
+  translation: "☀️ בהיר"
+- id: "theme_dark"
+  translation: "🌑 כהה"
+- id: "theme_auto"
+  translation: "✨ אוטומטי"
+
+## כותרת ראשית של עמוד הבית
+- id: "head_title"
+  translation: "אתר דמו לאדריטיאן - נושא הוגו ביצועים גבוהים מאת אדריאן מורנו"
+
+- id: "head_description"
+  translation: "נושא הוגו זה (אדריטיאן) מבוסס על Bootstrap וכולל תכונות שמתאימות לאתר אישי, תיק עבודות או יישומי עמוד יחיד."
+
+## הדגמת עמוד הבית
+- id: "showcase_title"
+  translation: "ברוכים הבאים לדמו"
+
+- id: "showcase_subtitle"
+  translation: "בואו נצלול לדוגמה"
+
+- id: "showcase_description"
+  translation: "זהו נושא ביצועים גבוהים עבור מחולל האתרים הסטטי Hugo. ניתן לערוך את התוכן לדוגמה בקבצי השפה המקומיים (הנושא תומך בתרגומים). <br> ניתן להוריד נושא זה מ- <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, ולצפות בו בשידור חי <a target='_blank' href='https://adritian-demo.vercel.app/'>כאתר דמו</a> או <a target='_blank' href='https://www.adrianmoreno.info'>אתר אמיתי</a>. <br> ניתן למצוא תוכן זה לעריכה בקובץ theme.yaml."
+
+- id: "showcase_button"
+  translation: "צור קשר"
+
+## לא גלוי אך משמש לנגישות
+- id: "showcase_image_alt"
+  translation: "תמונה של שם מגניב"
+
+## עמוד הבית על עצמי
+- id: "about_title"
+  translation: "מי אני?"
+
+- id: "about_content"
+  translation:  <p dir="rtl" class="lead">
+      כאן אתה יכול להוסיף מה שאתה רוצה, לך על זה!!!
+      </p>
+      <p dir="rtl" class="lead">
+      כאן ניתן להסביר על הרקע האקדמי/לימודי שלך, כמו גם על התחומים המועדפים עליך לעבודה. חשבו על אזור זה כהגדרת הקשר לניסיון שתתאר למטה. למה שינית עבודות? מה דחף אותך לקחת פרויקט חדש? גם אם אינך מחפש עבודה, זהו מקום טוב לרמוז על סוגי הפרויקטים שמעניינים אותך.
+    </p>
+
+- id: "about_button"
+  translation: "עליי"
+
+## עמוד הבית השכלה
+- id: "education_title"
+  translation: "השכלה"
+
+## עמוד הבית ניסיון
+- id: "experience_title"
+  translation: "ניסיון"
+
+- id: "experience_description"
+  translation: "כאן ניתן להדגיש מעט על הניסיון שלך. שנים של ניסיון כולל, תחומי התמחות וכו'."
+
+- id: "experience_button"
+  translation: "LinkedIn"
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/"
+
+- id: "experience_button2"
+  translation: "הורד קורות חיים"
+
+- id: "experience_button2_url"
+  translation: "/img/general/user-smile-fill.svg"
+
+- id: "experience_button3"
+  translation: "צפה בהכל"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+## עמוד הבית לקוחות ועבודות
+- id: "client_work_title"
+  translation: "לקוחות ועבודות"
+
+## עמוד הבית עלון
+- id: "newsletter_title"
+  translation: "עלון"
+
+- id: "newsletter_button"
+  translation: "הרשמה"
+
+- id: "newsletter_placeholder"
+  translation: "המייל שלך"
+
+- id: "newsletter_success_message"
+  translation: "תודה שנרשמת לעלון שלנו!"
+
+- id: "newsletter_error_message"
+  translation: "אירעה שגיאה. אנא נסה שוב."
+
+- id: "newsletter_note"
+  translation: "לעולם לא נשתף את המייל שלך עם אף אחד אחר."
+
+## עמוד הבית המלצות
+- id: "testimonials_title"
+  translation: "המלצות"
+
+## עמוד הבית צור קשר
+- id: "contact_title"
+  translation: "צור קשר"
+
+- id: "contact_button"
+  translation: "שלח הודעה"
+
+- id: "contact_form_name"
+  translation: "שם מלא"
+
+- id: "contact_form_email"
+  translation: "כתובת דואר אלקטרוני"
+
+- id: "contact_form_message"
+  translation: "הקלד כאן את ההודעה שלך"
+
+- id: "contact_phone_title"
+  translation: "מספר טלפון"
+
+- id: "contact_phone_number"
+  translation: "+555 (11) 123 44 55"
+
+- id: "contact_email_title"
+  translation: "אימייל"
+
+- id: "contact_email_email"
+  translation: '<a href="mailto:mail@example.com">mail@example.com</a>'
+
+- id: "contact_address_title"
+  translation: "כתובת"
+
+- id: "contact_address_address"
+  translation: "רחוב/שכונה מדויקת (אפשר להשמיט זאת)<br />מיקוד, עיר"
+
+- id: "contact_button"
+  translation: "שלח הודעה"
+
+## בלוג
+- id: "read_more"
+  translation: "קרא עוד"
+
+- id: "published_on"
+  translation: "פורסם בתאריך"
+
+- id: "continue_reading"
+  translation: "המשך לקרוא"
+
+## עמוד 404
+- id: "404_title"
+  translation: "העמוד לא נמצא"
+- id: "404_description"  
+  translation: "מצטערים, אך העמוד שחיפשת לא נמצא."
+- id: "404_button"
+  translation: "חזרה לעמוד הראשי"

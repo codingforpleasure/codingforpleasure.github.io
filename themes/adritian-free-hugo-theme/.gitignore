@@ -1,0 +1,14 @@
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.sass-cache
+npm-debug.log
+node_modules
+builds
+ 
+# Playwright
+/test-results/
+/tests/coverage-report
+playwright-report
+test-results

@@ -1,0 +1,181 @@
+{{/* Used for the Client&Works section in the homepage */}}
+{{/* If some content is missing/not displayed, check the images for the client/work */}}
+
+
+{{ if .Site.Data.homepage.client_and_work.enable }}
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container client-works-container">
+    <h2 class="rad-animation-group rad-fade-down">
+      {{ i18n "client_work_title" }}
+    </h2>
+    <div class="row row--padded rad-animation-group rad-fade-down">
+      <div class="col-12">
+        <div class="clients">
+          {{ $baseLangSite := .Sites.Default }}
+          {{ $clients := (where .Site.RegularPages.ByDate.Reverse "Type" "client-work" | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "client-work")) }}
+          
+
+          <div class="clients">
+            {{ range $clients }}
+              <div class="client">
+                <h3>{{ .Title }}</h3> <!-- Title of the client -->
+                <p>{{ .Params.link }}</p> <!-- Link to the client's site -->
+              </div>
+            {{ end }}
+          </div>
+
+          {{ printf "DEBUG: Number of Clients Found: %d" (len $clients) }}
+        
+          {{ range $clients }}
+            <div class="clients__item">
+              <a href="{{ .Params.link }}" aria-label="Link to the client site for {{ .Params.title }} (opens in a new window)" target="_blank">
+                <p>DEBUG: Client Title: {{ .Title }}</p>
+                <p>DEBUG: Link: {{ .Params.link }}</p>
+                <p>DEBUG: Logo Object: {{ .Params.logo }}</p>
+                <p>DEBUG: Logo Base: {{ .Params.logo.base }}</p>
+                <p>DEBUG: Logo High-Res Base: {{ .Params.logo.base_2x }}</p>
+        
+
+
+                {{ $lang := .Lang }}
+                <!-- {{ printf "DEBUG: Current Language: %s" $lang }} -->
+                <!-- {{ printf "DEBUG: Current Language: en" }} -->
+                <!-- {{ $baseDir := printf "images/%s/clients/" $lang }} -->
+                <!-- {{ $baseDir := printf "images/en/clients/" }} -->
+
+                <!-- {{ $baseDir := "images/en/clients/" }}
+                {{ $files := resources.Match (printf "%s*" $baseDir) }}
+                
+                {{ range $files }}
+                  <p>Absolute Path: {{ .Permalink }}</p>
+                {{ end }} -->
+                
+
+                {{ $imgPath := printf "%s%s" $baseDir .Params.logo.base }}
+                {{/* $imgPath := printf "%s%s" $baseDir "technion.png" */}}
+                {{ $imgPath2x := printf "%s%s" $baseDir .Params.logo.base_2x }}
+                {{/* $imgPath2x := printf "%s%s" $baseDir "technion.png" */}}
+        
+                <p>DEBUG: Image Path: {{ $imgPath }}</p>
+                <p>DEBUG: Image Path 2x: {{ $imgPath2x }}</p>
+        
+                {{ $img := resources.Get $imgPath }}
+                {{ $img2x := resources.Get $imgPath2x }}
+        
+                <!-- {{ if $img }}
+                  <p>DEBUG: Image Found: {{ $img.RelPermalink }}</p>
+                {{ else }}
+                  <p>DEBUG: Image Missing for {{ .Params.title }}</p>
+                {{ end }}
+        
+                {{ if $img2x }}
+                  <p>DEBUG: High-Res Image Found: {{ $img2x.RelPermalink }}</p>
+                {{ else }}
+                  <p>DEBUG: High-Res Image Missing for {{ .Params.title }}</p>
+                {{ end }} -->
+        
+                {{ if and $img $img2x }}
+                  {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" 200 150) }}
+                  {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" 400 300) }}
+                  <picture class="picture clients">
+                    <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+                    <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x">
+                    <img
+                      class="portfolio-project img-responsive"
+                      src="{{ $img.RelPermalink }}"
+                      srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                      alt="{{ .Params.title }}"
+                    />
+                  </picture>
+                {{ else }}
+                  <p>Image not found for {{ .Params.title }}</p>
+                {{ end }}
+              </a>
+            </div>
+          {{ end }}
+        </div>
+        
+      </div>
+    </div>
+    {{/* Projects */}}
+    {{ $projects := (where .Site.RegularPages.ByDate.Reverse "Type" "projects") }}          
+    {{ range $index, $element := $projects }}
+    {{ $is_even := eq (mod $index 2) 0 }}
+    {{ with $element }}
+    <div
+      class="row row--padded rad-animation-group rad-fade-down 
+      {{ if $is_even }}flex-column-reverse flex-md-row even-row{{ else }}uneven-row{{ end }}"
+    >
+      {{ if $is_even }}
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
+        <h3>{{ .Params.title }}</h3>
+        <p class="lead">
+          {{ .Page.Content }}
+        </p>
+        <a href="{{ .Params.button.URL | absURL }}" class="btn btn-primary"
+          >{{ .Params.button.btnText }}<i class="{{ .Params.button.icon }}"></i
+        ></a>
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+
+        {{ $img := resources.Get .Params.image.x }}
+        {{ $img2x := resources.Get .Params.image._2x }}
+        {{ with $img }}
+        {{ with $img2x}}
+        {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+        {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+        <picture class="picture-works even">
+          <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+          <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+          <img
+            class="lozad img-responsive"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            data-src="{{ $img.RelPermalink }}"
+            data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            alt="{{ .Params.title }}"
+          />
+        </picture>
+        {{ end }}
+        {{ end }}
+
+      </div>
+      {{ else }}
+      <div class="col-12 col-md-7 pl-md-0 text-right not-even">
+        {{ $img := resources.Get .Params.image.x }}
+        {{ $img2x := resources.Get .Params.image._2x }}
+        {{ with $img }}
+        {{ with $img2x}}
+        {{ $imgWebp := $img.Resize (printf "%dx%d webp q75 Lanczos picture" $img.Width $img.Height) }}
+        {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q75 Lanczos picture" $img2x.Width $img2x.Height) }}
+        <picture class="picture-works odd">
+          <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+          <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+          <img
+            class="lozad img-responsive"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            data-src="{{ $img.RelPermalink }}"
+            data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+            alt="{{ .Params.title }}"
+          />
+        </picture>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>{{ .Params.title }}</h3>
+        <p class="lead">
+          {{ .Page.Content }}
+        </p>
+        <a href="{{ .Params.button.URL | absURL }}" class="btn btn-primary"
+          >{{ .Params.button.btnText }}<i class="{{ .Params.button.icon }}"></i
+        ></a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

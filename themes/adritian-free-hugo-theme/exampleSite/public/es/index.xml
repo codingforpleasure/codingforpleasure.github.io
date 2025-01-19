@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/es/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puesto #3</title>
+      <link>http://localhost:1313/es/experience/job-3/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/es/experience/job-3/</guid>
+      <description>&lt;h3 id=&#34;fixing-the-world-one-byte-at-a-time&#34;&gt;Fixing the world, one byte at a time&lt;/h3&gt;&#xA;&lt;p&gt;Hostile takeover - who is the boss now!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trabajo #2</title>
+      <link>http://localhost:1313/es/experience/job-2/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/es/experience/job-2/</guid>
+      <description>&lt;h3 id=&#34;arreglando-el-mundo-un-byte-a-la-vez&#34;&gt;Arreglando el mundo, un byte a la vez&lt;/h3&gt;&#xA;&lt;p&gt;Continuando la misión.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trabajo #1</title>
+      <link>http://localhost:1313/es/experience/job-1/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/es/experience/job-1/</guid>
+      <description>&lt;h3 id=&#34;arreglando-el-mundo-un-byte-a-la-vez&#34;&gt;Arreglando el mundo, un byte a la vez&lt;/h3&gt;&#xA;&lt;p&gt;El comienzo de una gran carrera.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

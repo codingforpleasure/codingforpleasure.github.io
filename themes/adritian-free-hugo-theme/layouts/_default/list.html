@@ -1,0 +1,37 @@
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="{{- $.Lang }}">
+
+<head>
+  {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
+</head>
+
+<body>
+  {{ partial "header.html" . }}
+  <!-- list type: {{ .Kind }} -->
+  <main class="list flex-grow-1"> 
+    <section id="main-content" class="container section list-{{ .Kind }}">
+      <h1>{{ .Title }}</h1>
+      {{ if eq .Kind "taxonomy" }}
+        <ul class="list list-{{ .Kind }}">
+          {{ range .Data.Terms.ByCount }}
+            <li class="item item-{{ .Page.Kind }}">
+              <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+            </li>
+          {{ end }}
+        </ul>
+      {{ else }}
+        <ul>
+          {{ range .Pages }}
+            {{ .Render "li" }}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </section>
+  </main>
+
+  {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
+</body>
+
+</html>
+<!-- endinject -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client-Works on </title>
+    <link>http://localhost:1313/client-work/</link>
+    <description>Recent content in Client-Works on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Aug 2024 10:23:08 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/client-work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>afeka</title>
+      <link>http://localhost:1313/client-work/afeka/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/afeka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>bgu</title>
+      <link>http://localhost:1313/client-work/bgu/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/bgu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>college_of_management_academic_studies</title>
+      <link>http://localhost:1313/client-work/college_of_management_academic_studies/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/college_of_management_academic_studies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>haifa</title>
+      <link>http://localhost:1313/client-work/haifa/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/haifa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reichman</title>
+      <link>http://localhost:1313/client-work/reichman/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/reichman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technion</title>
+      <link>http://localhost:1313/client-work/technion/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/technion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tlv</title>
+      <link>http://localhost:1313/client-work/tlv/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/tlv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TLV-Yafo</title>
+      <link>http://localhost:1313/client-work/tlv_yafo/</link>
+      <pubDate>Sun, 25 Aug 2024 10:23:08 +0200</pubDate>
+      <guid>http://localhost:1313/client-work/tlv_yafo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

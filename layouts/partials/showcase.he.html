@@ -1,0 +1,24 @@
+<section id="showcase" dir="rtl" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+    <div id="main-content" class="container">
+      <div class="row flex-column-reverse flex-md-row-reverse rad-fade-down rad-waiting rad-animate">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"  dir="rtl">
+          <h1 class="display-1 text-right" dir="rtl">
+            {{ i18n "showcase_title" }}
+            <br />
+            <span>{{ i18n "showcase_subtitle" }}</span>
+          </h1>
+          <p class="lead text-right" dir="rtl">
+            {{ i18n "showcase_description" | safeHTML }}
+          </p>
+          <a
+            href="{{ .Site.Data.homepage.showcase.button.URL }}"
+            class="btn btn-primary"
+          >
+            <i class="{{ .Site.Data.homepage.showcase.button.icon }}"></i>
+            {{ i18n "showcase_button" }}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  

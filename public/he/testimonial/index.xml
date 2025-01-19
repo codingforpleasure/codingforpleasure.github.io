@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testimonials on </title>
+    <link>http://localhost:1313/he/testimonial/</link>
+    <description>Recent content in Testimonials on </description>
+    <generator>Hugo</generator>
+    <language>he</language>
+    <lastBuildDate>Mon, 25 Nov 2024 21:53:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/he/testimonial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graziella Nutella</title>
+      <link>http://localhost:1313/he/testimonial/etai/</link>
+      <pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate>
+      <guid>http://localhost:1313/he/testimonial/etai/</guid>
+      <description>&lt;p&gt;מעביר את החומר בצורה מובנת . לימוד בצורה עניינית ומדויקת . באמת מומלץ מכל הלב . ידע ברמה גבוהה מאוד!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>עידית</title>
+      <link>http://localhost:1313/he/testimonial/idit/</link>
+      <pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate>
+      <guid>http://localhost:1313/he/testimonial/idit/</guid>
+      <description>&lt;p&gt;גיל הוא מורה מיומן ויעיל.  לאחר  ליבון צרכים ראשוני  הוא בנה עבורי מערך שיעורים מותאם אישית ומכוון מטרה   כדי להכניס אותי לעניינים בזריזות, אך מעבר למיומנות בהוראה,  התגלתה בו נשמה יתרה של מורה. הדקדוק בכללי  קידוד וסטיילינג, הקפדה על שימוש נכון בכלים משלימים  בסביבת העבודה, והקנית ידע משלים כדי לאפשר נקןדת מבט רחבה על הנושא , כל זאת, בסבלנות והומור. לסיכום, כל מפגש עם גיל הוא חוויה עמוסת מידע  מעשירה ומהנה מאד.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ferdinand Shermand</title>
+      <link>http://localhost:1313/he/testimonial/orel/</link>
+      <pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate>
+      <guid>http://localhost:1313/he/testimonial/orel/</guid>
+      <description>&lt;p&gt;גיל עזר לנו לבצע פרויקט במדעי הנתונים ב-Python ובבניית מודל ב-Machine Learning. הגענו בסוף לתוצאה סופית ברמה גבוהה מאוד וזאת בעזרתו של גיל שהקפיד תמיד להגיע מוכן לשיעורים ולהשקיע מזמנו הפנוי כדי לסגור קצוות בנושאים שהיו יכולים &amp;ldquo;לתקוע&amp;rdquo; את השיעור וכך למעשה ביצענו את הפרויקט תוך זמן קצר. מומלץ בחום.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testimonial 1</title>
+      <link>http://localhost:1313/he/testimonial/eliyau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/he/testimonial/eliyau/</guid>
+      <description>&lt;p&gt;גיל מורה ממש מדהים. עזר לי עם עבודת תכנות קשה שלא הסתדרתי איתה בכלל, ובעזרתו של גיל קיבלתי 100. מורה מאוד מקצועי ומלוטש בחומר הלימוד. מסביר את החומר שצורה מאוד ברורה, ובעזרתו יכולתי להתקדם מהר בלימודים. מורה מאוד מומלץ!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testimonial 1</title>
+      <link>http://localhost:1313/he/testimonial/loai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/he/testimonial/loai/</guid>
+      <description>&lt;p&gt;מקצוען, סבלני ואדיב. אלה המילים שמתארים את גיל. אני לומד ביואינפורמטיקה וגיל עזר לי בתרגיל קשה מאוד בR, סיפק הסבר לכל שורת קוד שהוא כתב ודאג שאני אבין כל דבר בלי בלבולים.. ובסוף סיפק פיתרון מסודר ואילגנטי. מומלץ מאוד!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testimonial 2</title>
+      <link>http://localhost:1313/he/testimonial/ayelet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/he/testimonial/ayelet/</guid>
+      <description>&lt;p&gt;גיל מורה מעולה, יסודי, סבלני ופותר כל בעיה! הוא מקצועי מאוד ולצד זאת מתחשב ואכפתי. גיל עזר לי מאוד בקורס של תואר שני ברשתות חברתיות, שכולל הבנה מעמיקה בניתוח רשתות חברתיות וגם כולל קוד בפייתון. הוא מוכשר ומנוסה בהחלט! ממליצה בחום רב!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

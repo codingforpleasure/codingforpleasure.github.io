@@ -1,0 +1,548 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="theme-color" content="#478079"/>
+
+<title>Demo site for Adritian - a high performance hugo theme by Adrián Moreno</title>
+<meta name="description" content='This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.'>
+<meta name="generator-mode" content='development'>
+<style data-generator="critical-css">
+</style>
+<link
+  rel="preload"
+  href="/css/bundle.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+  
+/>
+<noscript>
+  <link 
+    rel="stylesheet"
+    href="/css/bundle.css"
+    
+  />
+</noscript>
+<link rel="stylesheet" href="http://localhost:1313/scss/adritian.css" integrity="" crossorigin="anonymous"/>
+
+
+
+<script defer src="http://localhost:1313/js/color-modes.js"></script>
+
+<script src='http://localhost:1313/js/library/lozad.min.js'></script>
+
+<meta property="og:url" content="http://localhost:1313/blog/sample/">
+  <meta property="og:site_name" content="Adritian - a high performance hugo theme by Adrián Moreno">
+  <meta property="og:title" content="Sample blog content 1">
+  <meta property="og:description" content="Sample blog content. Like a lorem ipsum but saying something more interesting.
+We will show some content that is supported:
+Basic Syntax Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_ This text will be italic">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-06-21T14:38:33+02:00">
+    <meta property="article:modified_time" content="2024-06-21T14:38:33+02:00">
+    <meta property="article:tag" content="Sample">
+    <meta property="article:tag" content="Lorem-Ipsum">
+    <meta property="og:image" content="http://localhost:1313/img/og-img.png">
+ 
+
+  </head>
+
+  <body>
+    
+
+
+<a href="#main-content" 
+    class="skip-to-content-link"
+    aria-label='Skip to main content'>
+  Skip to main content
+</a>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/">
+          <span>Adritian</span>
+          <span>Demo</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label='Toggle navigation'
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/"
+                >HOME</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#about"
+                >ABOUT</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#portfolio"
+                >PORTFOLIO</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact"
+                >CONTACT</a
+              >
+            </li>
+            
+            
+            <li class="nav-item">
+            
+<div id='mobile-header-language-selector' class='language-selector nav-item dropdown dropup nav-link'>
+     
+    
+    <button
+      class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+      id='btn-select-language-mobile-header'
+      type="button"
+      aria-expanded="true"
+      aria-controls="languages-dropdown-mobile-header"
+      aria-expanded="true"
+      data-bs-toggle="dropdown"
+      data-bs-display="static"
+      aria-label='Language'
+    >
+      <span class="label">Language</span>
+    </button>
+    <ul
+      class='dropdown-menu dropdown-menu-end '
+      id="languages-dropdown-mobile-header"
+      data-bs-popper="static"
+    >
+      <li class="dropdown-item current selected">
+        <span>✔️ English</span>
+      </li>
+       
+       
+     
+       
+     
+       
+      
+    </ul>
+  </div>
+            </li>
+            <li class="nav-item">
+            
+<div id='mobile-header-color-selector' class='nav-item dropdown dropup nav-link'>
+    <button
+      class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+      id='bd-theme-mobile-header'
+      type="button"
+      aria-expanded="true"
+      data-bs-toggle="dropdown"
+      data-bs-display="static"
+      aria-label='Toggle theme'
+    >
+      <span class="theme-icon auto d-none" aria-hidden="true"
+        ></span
+      >
+      <span class="current-theme">✨ Auto</span>
+      <span class="d-lg-none ms-2 visually-hidden" id="bd-theme-text"
+        >Toggle theme</span
+      >
+    </button>
+    <ul
+      id="theme-dropdown-mobile-header"
+      class="dropdown-menu dropdown-menu-end dropup"
+      aria-labelledby="bd-theme-text"
+      data-bs-popper="static"
+    >
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center active"
+          data-bs-theme-value="light"
+          aria-pressed="true"
+        >
+          ☀️ Light
+        </button>
+      </li>
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center"
+          data-bs-theme-value="dark"
+          aria-pressed="false"
+        >
+          🌑 Dark
+          <span class="theme-icon dark d-none" aria-hidden="true"
+            ></span
+          >
+        </button>
+      </li>
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center"
+          data-bs-theme-value="auto"
+          aria-pressed="false"
+        >
+          ✨ Auto
+          <span class="theme-icon light d-none" aria-hidden="true"
+            ></span
+          >
+        </button>
+      </li>
+    </ul>
+  </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header> 
+  <section id="breadcrumb-bar" class="breadcrumb-bar container">
+    <ul class="breadcrumbs">
+        <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/blog">Blogs</a></span></li><li class="breadcrum-item current">Sample blog content 1</li></ul>
+</section>
+
+
+    <section
+      id="blog-single"
+      class="section section--border-bottom rad-animation-group flex-grow-1"
+    >
+      <div id="main-content" class="container">
+        <h1><a href="/blog/sample/">Sample blog content 1</a></h1>
+
+        <aside id="meta" class="light-border-bottom">
+          <div>
+            <section>
+              Published on  
+              <h4 id="date">Fri Jun 21, 2024</h4>
+              ·
+              <h4 id="wordcount">241 Words</h4>
+            </section>
+             
+            <ul class="tags">
+              
+              <li><a href="/tags/sample/">Sample</a></li>
+              
+              <li><a href="/tags/lorem-ipsum/">Lorem-Ipsum</a></li>
+              
+            </ul>
+            
+          </div>
+        </aside>
+
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+          <div class="col-12"><p>Sample blog content. Like a lorem ipsum but saying something more interesting.</p>
+<p>We will show some content that is supported:</p>
+<h2 id="basic-syntax">Basic Syntax</h2>
+<h3 id="headings">Headings</h3>
+<pre tabindex="0"><code># Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+</code></pre><h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<h3 id="emphasis">Emphasis</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>*This text will be italic*
+</span></span><span style="display:flex;"><span>_This will also be italic_
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**This text will be bold**
+</span></span><span style="display:flex;"><span>__This will also be bold__
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>_You **can** combine them_
+</span></span></code></pre></div><p><em>This text will be italic</em></p>
+<p><em>This will also be italic</em></p>
+<p><strong>This text will be bold</strong></p>
+<p><strong>This will also be bold</strong></p>
+<p><em>You <strong>can</strong> combine them</em></p>
+<h3 id="lists">Lists</h3>
+<h4 id="unordered">Unordered</h4>
+<pre tabindex="0"><code>* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+</code></pre><ul>
+<li>Item 1</li>
+<li>Item 2
+<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<h4 id="ordered">Ordered</h4>
+<pre tabindex="0"><code>1. Item 1
+2. Item 2
+3. Item 3
+   1. Item 3a
+   2. Item 3b
+</code></pre><h3 id="images">Images</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">GitHub Logo</span>](<span style="color:#a6e22e">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png</span>)
+</span></span></code></pre></div><p><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></p>
+<h3 id="links">Links</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#f92672">Hugo</span>](<span style="color:#a6e22e">https://gohugo.io</span>)
+</span></span></code></pre></div><p><a href="https://gohugo.io">Hugo</a></p>
+<h3 id="blockquotes">Blockquotes</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>As Newton said:
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">If I have seen further it is by standing on the shoulders of Giants.
+</span></span></span></code></pre></div><blockquote>
+<p>If I have seen further it is by standing on the shoulders of Giants.</p>
+</blockquote>
+<h3 id="inline-code">Inline Code</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>Inline <span style="color:#e6db74">`code`</span> has <span style="color:#e6db74">`back-ticks around`</span> it.
+</span></span></code></pre></div><p>Inline <code>code</code> has <code>back-ticks around</code> it.</p>
+<h3 id="code-blocks">Code Blocks</h3>
+<h4 id="syntax-highlighting">Syntax Highlighting</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#e6db74">```go
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">```</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello World&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="tables">Tables</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| Syntax    | Description |
+</span></span><span style="display:flex;"><span>| --------- | ----------- |
+</span></span><span style="display:flex;"><span>| Header    | Title       |
+</span></span><span style="display:flex;"><span>| Paragraph | Text        |
+</span></span></code></pre></div><table>
+  <thead>
+      <tr>
+          <th>Syntax</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Header</td>
+          <td>Title</td>
+      </tr>
+      <tr>
+          <td>Paragraph</td>
+          <td>Text</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://www.markdownguide.org/basic-syntax/">Markdown Syntax</a></li>
+<li><a href="https://gohugo.io/content-management/formats/#markdown">Hugo Markdown</a></li>
+</ul>
+</div>
+        </div>
+
+        <aside class="content-browser light-border-top">
+            Continue reading
+            <div>
+                
+                 ■ 
+                
+                    <a class="next" href="/blog/sample-2/"> Sample blog content 2 ↪</a>
+                
+            </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="footer w-100">
+  <div class="container">
+    <div class="container-fluid">
+      <div class="row w-100 align-items-center">
+        <div class="footer_left col-12 col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
+          <div class="footer__copy">
+            <span>© Adritian. Free Hugo theme by Adrián Moreno Peña.</span>
+          </div>
+        </div>
+        <div class="footer_links col-12 col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
+          <ul class="navbar-nav w-100 align-items-center justify-content-center justify-content-lg-start d-flex flex-wrap gap-2">
+            <li class="nav-item">
+              <a class="nav-link px-2" href="/"
+                >🏠 HOME</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link px-2" href="/#about"
+                >ABOUT</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link px-2" href="/#portfolio"
+                >PORTFOLIO</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link px-2" href="/#contact"
+                >CONTACT</a
+              >
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer_right col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-end">
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2">
+            
+            
+<div id='footer-language-selector' class='language-selector nav-item dropdown dropup '>
+     
+    
+    <button
+      class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+      id='btn-select-language-footer'
+      type="button"
+      aria-expanded="true"
+      aria-controls="languages-dropdown-footer"
+      aria-expanded="true"
+      data-bs-toggle="dropdown"
+      data-bs-display="static"
+      aria-label='Language'
+    >
+      <span class="label">Language</span>
+    </button>
+    <ul
+      class='dropdown-menu dropdown-menu-end dropup'
+      id="languages-dropdown-footer"
+      data-bs-popper="static"
+    >
+      <li class="dropdown-item current selected">
+        <span>✔️ English</span>
+      </li>
+       
+       
+     
+       
+     
+       
+      
+    </ul>
+  </div>
+            
+            
+<div id='footer-color-selector' class='nav-item dropdown dropup '>
+    <button
+      class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+      id='bd-theme-footer'
+      type="button"
+      aria-expanded="true"
+      data-bs-toggle="dropdown"
+      data-bs-display="static"
+      aria-label='Toggle theme'
+    >
+      <span class="theme-icon auto d-none" aria-hidden="true"
+        ></span
+      >
+      <span class="current-theme">✨ Auto</span>
+      <span class="d-lg-none ms-2 visually-hidden" id="bd-theme-text"
+        >Toggle theme</span
+      >
+    </button>
+    <ul
+      id="theme-dropdown-footer"
+      class="dropdown-menu dropdown-menu-end dropup"
+      aria-labelledby="bd-theme-text"
+      data-bs-popper="static"
+    >
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center active"
+          data-bs-theme-value="light"
+          aria-pressed="true"
+        >
+          ☀️ Light
+        </button>
+      </li>
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center"
+          data-bs-theme-value="dark"
+          aria-pressed="false"
+        >
+          🌑 Dark
+          <span class="theme-icon dark d-none" aria-hidden="true"
+            ></span
+          >
+        </button>
+      </li>
+      <li>
+        <button
+          type="button"
+          class="dropdown-item d-flex align-items-center"
+          data-bs-theme-value="auto"
+          aria-pressed="false"
+        >
+          ✨ Auto
+          <span class="theme-icon light d-none" aria-hidden="true"
+            ></span
+          >
+        </button>
+      </li>
+    </ul>
+  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+ <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='http://localhost:1313/js/rad-animations.js'></script>
+<script defer src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='http://localhost:1313/js/sticky-header.js'></script>
+<script defer src='http://localhost:1313/js/smooth-scroll-init.js'></script>
+<script defer src='http://localhost:1313/js/library/bootstrap.bundle.min.js'></script>
+
+
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+  </body>
+</html>
+

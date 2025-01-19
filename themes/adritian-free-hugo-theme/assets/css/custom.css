@@ -1,0 +1,88 @@
+/* You can customize theme styles here */
+
+/*html[lang="he"], body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+*/
+
+
+/* You can customize theme styles here */
+
+
+/*html[lang="he"] #showcase h1.display-1,
+body[dir="rtl"] #showcase h1.display-1 {
+  text-align: right;
+  direction: rtl;
+}
+
+
+html[lang="he"] #showcase p.lead,
+body[dir="rtl"] #showcase p.lead {
+  text-align: right;
+  direction: rtl;
+}*/
+
+html[lang="he"] #showcase,
+body[dir="rtl"] #showcase {
+  text-align: right;
+  direction: rtl;
+}
+
+
+html[lang="he"] #about,
+body[dir="rtl"] #about {
+  text-align: right;
+  direction: rtl;
+}
+
+
+html[lang="he"] #education,
+body[dir="rtl"] #education {
+  text-align: right;
+  direction: rtl;
+}
+
+
+html[lang="he"] #experience,
+body[dir="rtl"] #experience {
+  text-align: right;
+  direction: rtl;
+}
+
+
+html[lang="he"] #portfolio,
+body[dir="rtl"] #portfolio {
+  text-align: right;
+  direction: rtl;
+}
+
+
+
+
+html[lang="he"] #testimonial,
+body[dir="rtl"] #testimonial {
+  text-align: right;
+  direction: rtl;
+}
+
+html[lang="he"] #contact,
+body[dir="rtl"] #contact {
+  text-align: right;
+  direction: rtl;
+}
+
+
+/* Ensure buttons in RTL layout align properly */
+[dir="rtl"] .btn {
+  display: inline-flex;         /* Ensures icon and text align in a single row */
+  align-items: center;          /* Vertically center-align icon and text */
+  text-align: right;            /* Align text inside the button to the right */
+  direction: rtl;               /* Set the text flow to RTL */
+}
+
+/* Adjust the icon position inside RTL buttons */
+[dir="rtl"] .btn i {
+  margin-left: 0.5rem;          /* Add space to the left of the icon */
+  margin-right: 0;             /* Remove space on the right of the icon */
+}	

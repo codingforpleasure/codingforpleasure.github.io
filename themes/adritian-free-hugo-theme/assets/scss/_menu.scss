@@ -1,0 +1,50 @@
+$color: white;
+$color-border: #478079;
+$color-dark: scale-color($color, $lightness: -30%);
+$transition: 280ms all 120ms ease-out;
+
+.language-selector {
+  li.choice {
+    padding: 0;
+  }
+
+  .label {
+    color: $color;
+  }
+
+  .dropdown-toggle::after {
+    color: $color;
+  }
+}
+
+#mobile-header-language-selector{
+  .label {
+    color: black;
+  }
+}
+#mobile-header-language-selector .dropdown-toggle::after{
+  color: black;
+}
+
+#footer-color-selector {
+    .dropdown-toggle::after {
+      color: $color;
+    }
+
+    .current-theme{
+      color: $color;
+    }
+  
+}
+
+@include color-mode(dark){
+  #mobile-header-language-selector{
+    .label {
+      color: white;
+    }
+  }
+  #mobile-header-language-selector .dropdown-toggle::after{
+    color: white;
+  }
+  
+}
