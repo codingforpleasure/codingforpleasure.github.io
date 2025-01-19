@@ -73,16 +73,13 @@
   translation: "Who am I?"
 
 - id: "about_content"
-  translation:  <p class="lead">
-      Here you can add some information about you. A small excerpt that describes 
-      your experience, for example.   
+  translation: |
+   <p class="lead">
+      I’m an <strong>Engineer</strong>, <strong>Entrepreneur</strong>, and <strong>Speaker</strong> who loves pushing people to places they never thought they could reach - in the best way possible, I promise. I believe that with boldness, determination, and consistency, nothing is truly impossible (well, except maybe convincing kids to eat their veggies).
       </p>
       <p class="lead">
-      You explain something about your academic/study background, as well as your
-      preferred areas of work. Think of this area as context-setting for the experience
-      that you will describe below. Why did you change jobs? What drove you to take a 
-      new gig? Even if you are not looking for a job, it's a good way to hint about
-      what kind of projects you are interested in.
+      I’ve had the privilege of teaching <b>thousands</b> of students, from undergraduates to advanced degree, at leading universities and colleges. I’ve seen firsthand how great ideas take shape, grow, and turn into impactful realities. 
+      My talks are a mix of knowledge, inspiration, and humor - because if you’re going to aim high, why not have a good laugh along the way?
     </p>
 
 - id: "about_button"
@@ -198,4 +195,5 @@
   translation: "Sorry, but the page you were looking for could not be found."
 - id: "404_button"
   translation: "Back to homepage"
+
 
